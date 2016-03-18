@@ -1,8 +1,8 @@
 
 #y {
     position: absolute;
-    top: 43%;
-    left: 28%;
+    top: 45%;
+    left: 47%;
     color: rgb(101, 200, 55);
     z-index: 200;
     font-family: Arial,	Verdana, sans-serif;
@@ -11,7 +11,7 @@
     font-style: italic;
 
     text-decoration: blink;
-    text-indent: 357px;
+
 }
 
 .timer-wrapper > ul {
