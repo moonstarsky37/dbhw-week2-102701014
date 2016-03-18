@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My Counterヽ(✿ﾟ▽ﾟ)ノ</title>
-    <link rel="stylesheet" type="text/css" href="css/css1.css">
-    <script type="text/javascript" src="js/js.js"></script>
-</head>
-<body>
-<p id ="y">Count from?</p>
+    <head>
+        <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width">
+            <title>My Counterヽ(✿ﾟ▽ﾟ)ノ</title>
+       <link rel="stylesheet" type="text/css" href="css/css1.css">
+       <script type="text/javascript" src="js/js.js"></script>
+    </head>
+    <body>
 
-<div id="inputtime" style="1">
-    <input type="text" id="t1" value="min">:
-    <input type="text" id="t2" value="sec"><br>
-    <input type="button" id="startbutton" value="Let's count!" onclick="whatnumber()" >
-</div>
 
-<div id="Showtime" style="display:none">
-    <input type="button" id="stopbutton" value="Stop" onclick="stop()">
-    <input type="button" id="restartbutton" value="Restart" onclick="restart()" >
-    <p id="restart" value="no"></p>
-</div>
+    <div class="timer-wrapper">
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <span id ="y">Count from?
+
+    </span>
+    <span id="inputtime" style="1">
+       <input type="text" id="t1" value="min">:
+       <input type="text" id="t2" value="sec"><br>
+        <input type="button" id="startbutton" value="Let's count!" onclick="whatnumber()" >
+    </span>
+
+    <span id="Showtime" style="display:none">
+        <input type="button" id="stopbutton" value="Stop" onclick="stop()">
+        <input type="button" id="restartbutton" value="Restart" onclick="restart()" >
+        <p id="restart" value="no"></p>
+    </span>
 
 
 </body>
