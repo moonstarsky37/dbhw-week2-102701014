@@ -3,6 +3,7 @@
  */
 var t;
 
+alert("先在左上角輸入要計時多久喔！");
 function whatnumber(){
     document.getElementById("y").innerHTML=parseInt(6*(document.getElementById("t1").value)+(document.getElementById("t2").value));
     document.getElementById("inputtime").style="display:none";
@@ -12,8 +13,8 @@ function whatnumber(){
 }
 
 function restart(){
-    document.getElementById("inputtime").style="1";
-    document.getElementById("y").innerHTML="Count from?";
+    document.getElementById("inputtime").style="backgroung:black";
+    document.getElementById("y").innerHTML="??";
     document.getElementById("restartbutton").style="display:none";
     document.getElementById("stopbutton").style="display:none";
     clearTimeout(t);
@@ -34,7 +35,7 @@ function count(){
             document.getElementById("y").innerHTML=time-1;
         }
     }else{
-        document.getElementById("y").innerHTML="Time out!!!";
+        document.getElementById("y").innerHTML="??";
     }
 
     t=setTimeout(function() {

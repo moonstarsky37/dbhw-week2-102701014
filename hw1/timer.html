@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width">
-            <title>My Counterヽ(✿ﾟ▽ﾟ)ノ</title>
-       <link rel="stylesheet" type="text/css" href="css/css1.css">
-       <script type="text/javascript" src="js/js.js"></script>
-    </head>
-    <body>
+<html style="background: black">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Counterヽ(✿ﾟ▽ﾟ)ノ</title>
+    <link rel="stylesheet" type="text/css" href="css/css1.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+</head>
+<body>
 
 
-    <div class="timer-wrapper">
+<div class="timer-wrapper" style="background: black">
 
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
 
-    <span id ="y">Count from?
+    <span id ="y">??
 
     </span>
-    <span id="inputtime" style="1">
+    <span id="inputtime" style="background: black">
        <input type="text" id="t1" value="min">:
        <input type="text" id="t2" value="sec"><br>
         <input type="button" id="startbutton" value="Let's count!" onclick="whatnumber()" >
@@ -35,7 +36,51 @@
         <input type="button" id="restartbutton" value="Restart" onclick="restart()" >
         <p id="restart" value="no"></p>
     </span>
+<script type="text/javascript" src="js/js3d.js"></script>
+
+</body>
+</html>
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width">
+            <title>My Counterヽ(✿ﾟ▽ﾟ)ノ</title>
+       <link rel="stylesheet" type="text/css" href="css/css1.css">
+       <script type="text/javascript" src="js/js.js"></script>
+       <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+    </head>
+
+    <body>
+
+    <div class="timer-wrapper" id="div0">
+        <span class ="y" >Count from?</span>
+        <span id="inputtime" style=" color:blue;">
+            <input type="text" name="t1" value="min">
+            <input type="text" id="t2" value="sec"><br>
+            <input type="button" id="startbutton" value="Let's count!" onclick="whatnumber()" >
+        </span>
+
+        <span id="num" value="stop" style="margin-left: -60px;">60</span>
+        <span id="Showtime" style="display:none">
+            <input type="button" id="stopbutton" value="Stop" onclick="stop()">
+            <input type="button" id="restartbutton" value="Restart" onclick="restart()" >
+            <p id="restart" value="no"></p>
+        </span>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+    </div>
+    <script type="text/javascript" src="js/js3d.js"></script>
+
+
 
 
 </body>
 </html>
+-->
